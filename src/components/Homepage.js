@@ -100,6 +100,43 @@ const Homepage = () => {
                     </div>
                 </section>
             </main>
+            <footer class="footer-section">
+                <div class="content-wrapper">
+                    <div class="footer-wrapper">
+
+                    <div class="left-footer">
+                        <div class="company-information">
+                        <h2>Stukebilt LLC.</h2>
+                        <address>
+                            3836 42nd Ave NE
+                            Seattle View
+                            WA 94043
+                            00-000-0000
+                            sunrise@sunrise.io
+                        </address>
+                        <p>Copyright &copy; 2020 Stukebilt LLC</p>
+                        </div>
+
+                        <nav class="footer-nav">
+                            <ul>
+                                <li><a href="#" class="selected-page">Links</a></li>
+                                <li><a href="#">Properties</a></li>
+                                <li><a href="#">Rent Payment Portal</a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="contact">
+                        <div class="forms">
+                        <h3>Tenants</h3>
+                        <button>Download Forms</button>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </footer>
 
          </div>      
 
