@@ -52,7 +52,7 @@ const Homepage = () => {
 
                             <div class="services">
                                 <div class="service-icon-circle">
-                                    <div class="service-icon"><i class="far fa-comment"></i>
+                                    <div class="service-icon">✆<i class="far fa-comment"></i>
                                     </div>
                                 </div>
                                 <h3>Contacts</h3>
@@ -72,7 +72,7 @@ const Homepage = () => {
 
                             <div class="services">
                                 <div class="service-icon-circle">
-                                    <div class="service-icon"><i class="fas fa-code"></i>
+                                    <div class="service-icon">𝓲<i class="fas fa-code"></i>
                                     </div>
                                 </div>
                                 <h3>About</h3>
@@ -85,7 +85,7 @@ const Homepage = () => {
 
                             <div class="services">
                                 <div class="service-icon-circle">
-                                    <div class="service-icon"><i class="far fa-chart-bar"></i>
+                                    <div class="service-icon">𝐬<i class="far fa-chart-bar"></i>
                                     </div>
                                 </div>
                                 <h3>Services</h3>
