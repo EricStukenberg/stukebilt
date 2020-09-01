@@ -294,6 +294,12 @@ footer.footer-section {
         padding-left: 80px;
         width: 100%;
       }
+      .footer-nav h3 {
+        text-decoration: none;
+        color: $tertiary-color;
+        text-transform: uppercase;
+        line-height: 1.8rem;
+      }
 
       .footer-nav ul li a {
         text-decoration: none;
@@ -307,10 +313,10 @@ footer.footer-section {
         font-weight: 600;
       }
 
-      .footer-nav ul li:first-of-type {
-        color: $tertiary-color;
-        font-weight: 600;
-      }
+      // .footer-nav ul li:first-of-type {
+      //   color: $tertiary-color;
+      //   font-weight: 600;
+      // }
     }
 
     .contact {

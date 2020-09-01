@@ -118,8 +118,9 @@ const Homepage = () => {
                         </div>
 
                         <nav class="footer-nav">
+                            
+                            <h3>Links</h3> 
                             <ul>
-                                <li><a href="#" class="selected-page">Links</a></li>
                                 <li><a href="#">Properties</a></li>
                                 <li><a href="#">Rent Payment Portal</a></li>
 
