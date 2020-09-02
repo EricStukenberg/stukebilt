@@ -1,33 +1,15 @@
 import React from 'react';
+import NavBar from '../components/NavBar.js'
+import { Router, Route, Switch } from "react-router";
+import { useHistory } from 'react-router-dom';
+
 import '../App.scss';
+
 
 const Homepage = () => {
     return (
         <div>
-            <header class="header-section">
-                <div class="content-wrapper">
-
-                    <div class="header-wrapper">
-
-                        <div class="header-left">
-                            <h1>Stukebilt</h1>
-                        </div>
-
-                        <div class="header-right">
-                            <nav class="header-nav">
-                            <ul>
-                                <li><a href="#" class="selected-page">Home</a></li>
-                                <li><a href="#">Properties</a></li>
-
-                                <li><a href="#">Rent Payment Portal</a></li>
-                            </ul>
-                            </nav>
-                        </div>
-
-                    </div>
-
-                </div>
-            </header>
+            <NavBar /> 
 
             <main>
 
@@ -109,10 +91,10 @@ const Homepage = () => {
                         <h2>Stukebilt LLC.</h2>
                         <address>
                             3836 42nd Ave NE
-                            Seattle View
-                            WA 94043
-                            00-000-0000
-                            sunrise@sunrise.io
+                            Seattle
+                            WA 98105
+                            Want a website? Contact me at:
+                            ericstukenbergWebDev@outlook.com
                         </address>
                         <p>Copyright &copy; 2020 Stukebilt LLC</p>
                         </div>
@@ -130,21 +112,17 @@ const Homepage = () => {
 
                     <div class="contact">
                         <div class="forms">
-                        <h3>Tenants</h3>
-                        <button>Download Forms</button>
+                            <h3>Tenants</h3>
+                            <button>Download Forms</button>
                         </div>
                     </div>
 
                     </div>
                 </div>
             </footer>
-
          </div>      
 
     );
-
-
-
 };
 
 export default Homepage;
