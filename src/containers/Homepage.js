@@ -34,7 +34,7 @@ const Homepage = () => {
 
                             <div class="services">
                                 <div class="service-icon-circle">
-                                    <div class="service-icon">✆<i class="far fa-comment"></i>
+                                    <div class="service-icon">𝒞<i class="far fa-comment"></i>
                                     </div>
                                 </div>
                                 <h3>Contacts</h3>
@@ -67,7 +67,7 @@ const Homepage = () => {
 
                             <div class="services">
                                 <div class="service-icon-circle">
-                                    <div class="service-icon">𝐬<i class="far fa-chart-bar"></i>
+                                    <div class="service-icon">𝒮<i class="far fa-chart-bar"></i>
                                     </div>
                                 </div>
                                 <h3>Services</h3>
