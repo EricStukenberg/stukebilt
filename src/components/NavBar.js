@@ -2,6 +2,11 @@ import React from 'react';
 import '../App.scss';
 
 const NavBar = () => {
+
+    const handleSelected = () => {
+
+    }
+    
     return (
 
         <header class="header-section">
