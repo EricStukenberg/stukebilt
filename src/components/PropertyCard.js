@@ -8,7 +8,6 @@ const PropertyCard= () => {
 
     return (
         <div>
-            <NavBar /> 
 
         </div>
     );

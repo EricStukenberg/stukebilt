@@ -8,7 +8,6 @@ const PropertiesContainer = () => {
 
     return (
         <div>
-            <NavBar /> 
 
         </div>
     );

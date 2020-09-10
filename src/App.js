@@ -4,6 +4,7 @@ import Homepage from './containers/Homepage.js';
 const App = () => {
   return (
     <div >
+      <NavBar /> 
       <Homepage></Homepage>
     </div>
   );

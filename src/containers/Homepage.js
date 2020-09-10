@@ -9,7 +9,6 @@ import '../App.scss';
 const Homepage = () => {
     return (
         <div>
-            <NavBar /> 
 
             <main>
 
