@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from '../components/NavBar.js'
 import { Router, Route, Switch } from "react-router";
 import { useHistory } from 'react-router-dom';
 
