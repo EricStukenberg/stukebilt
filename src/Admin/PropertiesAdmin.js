@@ -1,5 +1,5 @@
-import React from 'react';
-import '../App.scss';
+import React from './node_modules/react';
+import '../styles/App.scss';
 
 const PropertiesAdmin = () => {
 

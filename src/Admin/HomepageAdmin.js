@@ -1,8 +1,8 @@
-import React from 'react';
-import { Router, Route, Switch } from "react-router";
-import { useHistory } from 'react-router-dom';
+import React from './node_modules/react';
+import { Router, Route, Switch } from "./node_modules/react-router";
+import { useHistory } from './node_modules/react-router-dom';
 
-import '../App.scss';
+import '../styles/App.scss';
 
 
 const HomepageAdmin = () => {
