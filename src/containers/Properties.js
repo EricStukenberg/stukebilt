@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.scss';
 
-const PropertiesContainer = () => {
+const Properties = () => {
 
 
 
@@ -14,4 +14,4 @@ const PropertiesContainer = () => {
 
 };
 
-export default PropertiesContainer;
+export default Properties;
