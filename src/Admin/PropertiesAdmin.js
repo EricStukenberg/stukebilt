@@ -8,7 +8,7 @@ const PropertiesAdmin = () => {
 
     return (
         <div>
-
+            
         </div>
     );
 
