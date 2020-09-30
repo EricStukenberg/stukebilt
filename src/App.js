@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Homepage from './containers/Homepage.js';
 import Properties from './containers/Properties.js';
 import NavBar from './components/NavBar.js'
+import Footer from './components/Footer.js'
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { useHistory } from 'react-router-dom';
 
@@ -30,6 +31,7 @@ class App extends Component {
             </Route>
           </Switch>
         </BrowserRouter>
+        <Footer />
       </div>
     );
   }

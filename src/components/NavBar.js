@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles/App.scss';
+import {Link} from 'react-router-dom'
+
 
 const NavBar = () => {
 
@@ -21,8 +23,8 @@ const NavBar = () => {
                     <div class="header-right">
                         <nav class="header-nav">
                         <ul>
-                            <li><a href="#" class="selected-page">Home</a></li>
-                            <li><a href="#">Properties</a></li>
+                            <li><Link  to="/" class="selected-page">Home</Link></li>
+                            <li><Link to="/properties">Properties</Link></li>
 
                             <li><a href="#">Rent Payment Portal</a></li>
                         </ul>
