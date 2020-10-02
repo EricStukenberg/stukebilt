@@ -11,10 +11,10 @@ const Homepage = () => {
 
             <main>
 
-                <section class="titles-section">
-                    <div class="content-wrapper">
+                <section className="titles-section">
+                    <div className="content-wrapper">
 
-                        <div class="titles">
+                        <div className="titles">
                             <h2>Stukebilt Services</h2>
 
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -26,17 +26,17 @@ const Homepage = () => {
                     </div>
 
                 </section>
-                <section class="services-section">
-                    <div class="content-wrapper">
-                        <div class="services-wrapper">
+                <section className="services-section">
+                    <div className="content-wrapper">
+                        <div className="services-wrapper">
 
-                            <div class="services">
-                                <div class="service-icon-circle">
-                                    <div class="service-icon">𝒞<i class="far fa-comment"></i>
+                            <div className="services">
+                                <div className="service-icon-circle">
+                                    <div className="service-icon">𝒞<i className="far fa-comment"></i>
                                     </div>
                                 </div>
                                 <h3>Contacts</h3>
-                                <div class="services-paragraph">
+                                <div className="services-paragraph">
                                     <p>
                                     <ul>
                                         <li>JohnSmith@email</li>
@@ -50,26 +50,26 @@ const Homepage = () => {
                                 </div>
                             </div>
 
-                            <div class="services">
-                                <div class="service-icon-circle">
-                                    <div class="service-icon">𝓲<i class="fas fa-code"></i>
+                            <div className="services">
+                                <div className="service-icon-circle">
+                                    <div className="service-icon">𝓲<i className="fas fa-code"></i>
                                     </div>
                                 </div>
                                 <h3>About</h3>
-                                <div class="services-paragraph">
+                                <div className="services-paragraph">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, ipsum? Nihil aperiam nisi officiis
                                     quidem exercitationem odio? Cum consectetur officia nulla mollitia. Repellendus aspernatur.
                                     </p>
                                 </div>
                             </div>
 
-                            <div class="services">
-                                <div class="service-icon-circle">
-                                    <div class="service-icon">𝒮<i class="far fa-chart-bar"></i>
+                            <div className="services">
+                                <div className="service-icon-circle">
+                                    <div className="service-icon">𝒮<i className="far fa-chart-bar"></i>
                                     </div>
                                 </div>
                                 <h3>Services</h3>
-                                <div class="services-paragraph">
+                                <div className="services-paragraph">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae odio nobis totam harum necessitatibus
                                     explicabo similique odit nemo. Repellendus, similique. Blanditiis voluptatibus iure.
                                     </p>

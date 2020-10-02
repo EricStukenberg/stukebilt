@@ -12,16 +12,20 @@ class App extends Component {
   }
 
   componentDidMount() {
-
-
     
   }
 
+  handleNavClick = (selected) => {
+    console.log(selected)
+    // this.setState({
+    //   selected: selected
+    // });
+  }
   render () {
     return (
       <div>
         <BrowserRouter>
-          <NavBar />
+          <NavBar selectItem={this.handleNavClick} selected={this.state.selected}/>
           <Switch>
             <Route exact path='/' >
               <Homepage />

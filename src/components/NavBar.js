@@ -3,28 +3,28 @@ import '../styles/App.scss';
 import {Link} from 'react-router-dom'
 
 
-const NavBar = () => {
+const NavBar = (props) => {
+    console.log(props)
+    // const handleSelected = () => {
 
-    const handleSelected = () => {
-
-    }
+    // }
     
     return (
 
-        <header class="header-section">
-            <div class="content-wrapper">
+        <header className="header-section">
+            <div className="content-wrapper">
 
-                <div class="header-wrapper">
+                <div className="header-wrapper">
 
-                    <div class="header-left">
+                    <div className="header-left">
                         <h1>Stukebilt</h1>
                     </div>
 
-                    <div class="header-right">
-                        <nav class="header-nav">
+                    <div className="header-right">
+                        <nav className="header-nav">
                         <ul>
-                            <li><Link  to="/" class="selected-page">Home</Link></li>
-                            <li><Link to="/properties">Properties</Link></li>
+                            <li><Link  to="/" onClick={props.selectItem("home")} className={(props.selected === "home") ? "selected-page" : ""}>Home</Link></li>
+                            <li><Link to="/properties" onClick={props.selectItem("home")} className={(props.selected === "properties") ? "selected-page" : ""}>Properties</Link></li>
 
                             <li><a href="#">Rent Payment Portal</a></li>
                         </ul>
