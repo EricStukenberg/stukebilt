@@ -16,7 +16,11 @@ class App extends Component {
   }
 
   handleNavClick = (selected) => {
+    console.log("Was FIred clicked")
     console.log(selected)
+
+    console.log(selected)
+
     // this.setState({
     //   selected: selected
     // });

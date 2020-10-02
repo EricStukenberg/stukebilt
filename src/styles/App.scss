@@ -61,8 +61,14 @@ header.header-section {
         text-decoration: none;
         color: #000000;
       }
+      .header-nav .link{
+        padding: 0 15px;
+        text-decoration: none;
+        color: #000000;
+      }
 
-      .header-nav ul li .selected-page {
+      .header-nav .selected-page {
+        padding: 0 15px;
         font-weight: 600;
         color: $tertiary-color;
       }

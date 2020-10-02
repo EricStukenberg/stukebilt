@@ -23,8 +23,8 @@ const NavBar = (props) => {
                     <div className="header-right">
                         <nav className="header-nav">
                         <ul>
-                            <li><Link  to="/" onClick={props.selectItem("home")} className={(props.selected === "home") ? "selected-page" : ""}>Home</Link></li>
-                            <li><Link to="/properties" onClick={props.selectItem("home")} className={(props.selected === "properties") ? "selected-page" : ""}>Properties</Link></li>
+                            <Link onClick={props.selectItem("home")} className={(props.selected === "home") ? "selected-page" : "link"} to="/" >Home</Link>
+                            <Link onClick={props.selectItem("home")} className={(props.selected === "properties") ? "selected-page" : "link"} to="/properties" >Properties</Link>
 
                             <li><a href="#">Rent Payment Portal</a></li>
                         </ul>
