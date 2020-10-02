@@ -11,9 +11,7 @@ class App extends Component {
     selected: 'home'
   }
 
-  componentDidMount() {
-    
-  }
+
 
   handleNavClick = (selected) => {
     console.log("Was FIred clicked")
@@ -21,9 +19,9 @@ class App extends Component {
 
     console.log(selected)
 
-    // this.setState({
-    //   selected: selected
-    // });
+    this.setState({
+      selected: selected
+    });
   }
   render () {
     return (
