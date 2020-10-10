@@ -3,10 +3,12 @@
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
 
-
-  // Your web app's Firebase configuration
+import firebase from firebase
+import 'firebase/storage'
+  
+// Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  var firebaseConfig = {
+  const firebaseConfig = {
     apiKey: "AIzaSyDV5pIFVf1xZAuRM1_BCq2iADh1lXDhUrI",
     authDomain: "stukebilt.firebaseapp.com",
     databaseURL: "https://stukebilt.firebaseio.com",
@@ -17,4 +19,4 @@
     measurementId: "G-YG6L711G3C"
   };
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+  export const app = firebase.initializeApp(firebaseConfig);
