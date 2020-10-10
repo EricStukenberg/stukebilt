@@ -1,9 +1,4 @@
-
-
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
-
-import firebase from firebase
+import app from 'firebase/app';
 import 'firebase/storage'
   
 // Your web app's Firebase configuration
@@ -18,5 +13,11 @@ import 'firebase/storage'
     appId: "1:108267098942:web:426731edb416bc2bb7126f",
     measurementId: "G-YG6L711G3C"
   };
+
+  class Firebase {
+    constructor() {
+      app.initializeApp(firebaseConfig);
+    }
+  }
   // Initialize Firebase
-  export const app = firebase.initializeApp(firebaseConfig);
+  export default Firebase;

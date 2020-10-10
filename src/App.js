@@ -4,11 +4,17 @@ import Properties from './containers/Properties.js';
 import NavBar from './components/NavBar.js'
 import Footer from './components/Footer.js'
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import firebase from 'firebase/app';
+import 'firebase/firestore';
+import 'firebase/auth';
 import { useHistory } from 'react-router-dom';
+
 
 class App extends Component {
   state = {
-    selected: 'home'
+    selected: 'home',
+    imageURL: null,
+    authUser: null
   }
 
 
